@@ -4,7 +4,7 @@
 * A list is a collection which is ordered and changeable. In Python lists are written 
 with square brackets.
 
-## Create a List
+## 1. Create a List
 
 ```python
 thislist = ["apple", "banana", "cherry"]
@@ -15,7 +15,7 @@ print(thislist)
 ['apple', 'banana', 'cherry']
 ```
 
-## Access Items
+## 2. Access Items
 
 * You access the list items by referring to the index number:
 
@@ -30,7 +30,7 @@ print(thislist[1])
 banana
 ```
 
-## Negative Indexing
+## 3. Negative Indexing
 
 * Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to 
 the second last item etc.
@@ -47,7 +47,7 @@ print(thislist[-1])
 cherry
 ```
 
-## Range of Indexes
+## 4. Range of Indexes
 
 * You can specify a range of indexes by specifying where to start and where to end the range.
 
