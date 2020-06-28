@@ -217,6 +217,86 @@ print(thislist)
 ['apple', 'orange', 'banana', 'cherry']
 ```
 
-## 11. 
+## 11. Remove Item
+
+* There are several methods to remove items from a list:
+
+```python
+* The `remove()` method removes the specified item:
+
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+
+Output:
+
+print(thislist)
+['apple', 'cherry']
+```
+
+* The `pop()` method removes the specified index, (or the last item if index is not specified):
+
+```python
+thislist = ["apple", "banana", "cherry"]
+thislist.pop(0)
+
+Output:
+
+print(thislist)
+['banana', 'cherry']
+
+or
+
+thislist = ["apple", "banana", "cherry"]
+thislist.pop()
+
+Output:
+
+print(thislist)
+['apple', 'banana']
+```
+
+* The `del` keyword removes the specified index:
+
+```python
+thislist = ["apple", "banana", "cherry"]
+del thislist[0]
+
+Output:
+
+print(thislist)
+['banana', 'cherry']
+```
+
+* The del keyword can also delete the list completely:
+
+```python
+thislist = ["apple", "banana", "cherry"]
+del thislist
+
+Output:
+
+print(thislist) 
+
+Traceback (most recent call last):
+  File "demo_list_del2.py", line 3, in <module>
+    print(thislist) # this will cause an error because you have succsesfully deleted "thislist".
+NameError: name 'thislist' is not defined
+```
+
+* The `clear()` method empties the list:
+
+
+```python
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+
+Output:
+
+print(thislist)
+[]
+```
+
+## 12. Copy a List
+
 
 > Please inbox **[me](https://www.facebook.com/shoriot)**, if you've any questions.
