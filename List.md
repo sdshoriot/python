@@ -346,4 +346,84 @@ print(list3)
 ['a', 'b', 'c', 1, 2, 3]
 ```
 
+```python
+first_name = 'SD'
+last_name = 'Shoriot'
+
+full_name = first_name + " " + last_name
+print(full_name)
+SD Shoriot
+```
+
+* Another way to join two lists are by appending all the items from list2 into list1, 
+one by one:
+
+```python
+* Append list2 into list1:
+
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+for x in list2:
+  list1.append(x)
+
+Output:
+
+print(list1)
+['a', 'b', 'c', 1, 2, 3]
+```
+
+* Or you can use the extend() method, which purpose is to add elements from one list 
+to another list:
+
+```python
+* Use the `extend()` method to add list2 at the end of list1:
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+
+Output:
+
+print(list1)
+['a', 'b', 'c', 1, 2, 3]
+```
+
+## 14. The list() Constructor
+
+* It is also possible to use the `list()` constructor to make a new list.
+
+```python
+* Using the list() constructor to make a List:
+
+thislist = list(("apple", "banana", "cherry"))
+
+Output:
+
+print(thislist)
+['apple', 'banana', 'cherry']
+```
+
+
+## 15. List Methods
+
+* Python has a set of built-in methods that you can use on lists.
+
+<pre>
+<b>Method</b>	Description
+append()	Adds an element at the end of the list
+clear()	Removes all the elements from the list
+copy()	Returns a copy of the list
+count()	Returns the number of elements with the specified value
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+index()	Returns the index of the first element with the specified value
+insert()	Adds an element at the specified position
+pop()	Removes the element at the specified position
+remove()	Removes the item with the specified value
+reverse()	Reverses the order of the list
+sort()	Sorts the list
+</pre>
+
 > Please inbox **[me](https://www.facebook.com/shoriot)**, if you've any questions.
