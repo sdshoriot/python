@@ -123,6 +123,39 @@ print(thislist[-4:-1])
 ['orange', 'kiwi', 'melon']
 ```
 
+## 6. Change Item Value
+
+* To change the value of a specific item, refer to the index number:
+
+```python
+* Change the second item:
+
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "blackcurrant"
+
+Output:
+
+print(thislist)
+['apple', 'blackcurrant', 'cherry']
+```
+
+## 7. Loop Through a List
+
+* You can loop through the list items by using a `for` loop:
+
+```python
+* Print all items in the list, one by one:
+
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+  print(x)
+
+Output:
+
+apple
+banana
+cherry  
+```
 
 
 > Please inbox **[me](https://www.facebook.com/shoriot)**, if you've any questions.
