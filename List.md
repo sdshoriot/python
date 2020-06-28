@@ -412,7 +412,7 @@ print(thislist)
 * Python has a set of built-in methods that you can use on lists.
 
 <pre>
-<b>Method		Description</b>
+<b>Method			Description</b>
 
 1. append()		Adds an element at the end of the list
 2. clear()		Removes all the elements from the list
@@ -423,7 +423,7 @@ print(thislist)
 7. insert()		Adds an element at the specified position
 8. pop()		Removes the element at the specified position
 9. remove()		Removes the item with the specified value
-10. reverse()	Reverses the order of the list
+10. reverse()		Reverses the order of the list
 11. sort()		Sorts the list
 </pre>
 
