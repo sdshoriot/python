@@ -298,5 +298,52 @@ print(thislist)
 
 ## 12. Copy a List
 
+* There are ways to make a copy, one way is to use the built-in List method `copy()`.
+
+```python
+* Make a copy of a list with the `copy()` method:
+
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+
+Output:
+
+print(mylist)
+['apple', 'banana', 'cherry']
+```
+
+* Another way to make a copy is to use the built-in method `list()`.
+
+```python
+* Make a copy of a list with the `list()` method:
+
+thislist = ["apple", "banana", "cherry"]
+mylist = list(thislist)
+
+Output:
+
+print(mylist)
+['apple', 'banana', 'cherry']
+```
+
+
+## 13. Join Two Lists
+
+* There are several ways to join, or concatenate, two or more lists in Python.
+
+* One of the easiest ways are by using the `+` operator.
+
+
+```python
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+
+Output:
+
+print(list3)
+['a', 'b', 'c', 1, 2, 3]
+```
 
 > Please inbox **[me](https://www.facebook.com/shoriot)**, if you've any questions.
