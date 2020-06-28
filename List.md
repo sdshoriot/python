@@ -104,5 +104,25 @@ print(thislist[2:])
 ['cherry', 'orange', 'kiwi', 'melon', 'mango']
 ```
 
+## 5. Range of Negative Indexes
+
+* Specify negative indexes if you want to start the search from the end of the list:
+
+```python
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+
+# Negative indexing means starting from the end of the list.
+
+# This example returns the items from index -4 (included) to index -1 (excluded)
+
+# Remember that the last item has the index -1,
+
+Output:
+
+print(thislist[-4:-1])
+['orange', 'kiwi', 'melon']
+```
+
+
 
 > Please inbox **[me](https://www.facebook.com/shoriot)**, if you've any questions.
