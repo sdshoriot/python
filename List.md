@@ -81,10 +81,28 @@ Remember that the first item has index 0.
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 
+# This will return the items from index 0 to index 4.
+
 Output:
 
 print(thislist[:4])
 ['apple', 'banana', 'cherry', 'orange']
 ```
+
+* By leaving out the end value, the range will go on to the end of the list:
+
+```python
+* This example returns the items from "cherry" and to the end:
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+
+# This will return the items from index 2 to the end.
+
+Output:
+
+print(thislist[2:])
+['cherry', 'orange', 'kiwi', 'melon', 'mango']
+```
+
 
 > Please inbox **[me](https://www.facebook.com/shoriot)**, if you've any questions.
