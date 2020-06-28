@@ -190,7 +190,7 @@ print(len(thislist))
 
 ## 10. Add Items
 
-* To add an item to the end of the list, use the append() method:
+* To add an item to the end of the list, use the `append()` method:
 
 ```python
 thislist = ["apple", "banana", "cherry"]
@@ -202,5 +202,21 @@ Output:
 print(thislist)
 ['apple', 'banana', 'cherry', 'orange']
 ```
+
+* To add an item at the specified index, use the `insert()` method:
+
+```python
+* Insert an item as the second position:
+
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(1, "orange")
+
+Output:
+
+print(thislist)
+['apple', 'orange', 'banana', 'cherry']
+```
+
+## 11. 
 
 > Please inbox **[me](https://www.facebook.com/shoriot)**, if you've any questions.
