@@ -157,5 +157,50 @@ banana
 cherry  
 ```
 
+## 8. Check if Item Exists
+
+* To determine if a specified item is present in a list use the in keyword:
+
+```python
+* Check if "apple" is present in the list:
+
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+  print("Yes, 'apple' is in the fruits list")
+
+Output:
+
+Yes, 'apple' is in the fruits list  
+```
+
+## 9. List Length
+
+* To determine how many items a list has, use the len() function:
+
+```python
+* Print the number of items in the list:
+
+thislist = ["apple", "banana", "cherry"]
+
+Output:
+
+print(len(thislist))
+3
+```
+
+## 10. Add Items
+
+* To add an item to the end of the list, use the append() method:
+
+```python
+thislist = ["apple", "banana", "cherry"]
+
+thislist.append("orange")
+
+Output:
+
+print(thislist)
+['apple', 'banana', 'cherry', 'orange']
+```
 
 > Please inbox **[me](https://www.facebook.com/shoriot)**, if you've any questions.
