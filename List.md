@@ -20,7 +20,7 @@ print(thislist)
 * You access the list items by referring to the index number:
 
 ```python
-* Print the second item of the list:
+# Print the second item of the list:
 
 thislist = ["apple", "banana", "cherry"]
 
@@ -37,7 +37,7 @@ the second last item etc.
 
 
 ```python
-* Print the last item of the list:
+# Print the last item of the list:
 
 thislist = ["apple", "banana", "cherry"]
 
@@ -51,10 +51,9 @@ cherry
 
 * You can specify a range of indexes by specifying where to start and where to end the range.
 
-* When specifying a range, the return value will be a new list with the specified items.
 
 ```python
-* Return the third, fourth, and fifth item:
+# Return the third, fourth, and fifth item:
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 
@@ -70,14 +69,12 @@ print(thislist[2:5])
 
 
 Note: The search will start at index 2 (included) and end at index 5 (not included).
-
-Remember that the first item has index 0.
 ```
 
 * By leaving out the start value, the range will start at the first item:
 
 ```python
-* This example returns the items from the beginning to "orange":
+# This example returns the items from the beginning to "orange":
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 
@@ -92,7 +89,7 @@ print(thislist[:4])
 * By leaving out the end value, the range will go on to the end of the list:
 
 ```python
-* This example returns the items from "cherry" and to the end:
+# This example returns the items from "cherry" and to the end:
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 
@@ -109,11 +106,9 @@ print(thislist[2:])
 * Specify negative indexes if you want to start the search from the end of the list:
 
 ```python
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-
-# Negative indexing means starting from the end of the list.
-
 # This example returns the items from index -4 (included) to index -1 (excluded)
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 
 # Remember that the last item has the index -1,
 
@@ -128,9 +123,10 @@ print(thislist[-4:-1])
 * To change the value of a specific item, refer to the index number:
 
 ```python
-* Change the second item:
+# Change the second item:
 
 thislist = ["apple", "banana", "cherry"]
+
 thislist[1] = "blackcurrant"
 
 Output:
@@ -144,11 +140,12 @@ print(thislist)
 * You can loop through the list items by using a `for` loop:
 
 ```python
-* Print all items in the list, one by one:
+# Print all items in the list, one by one:
 
 thislist = ["apple", "banana", "cherry"]
-for x in thislist:
-  print(x)
+
+for s in thislist:
+  print(s)
 
 Output:
 
@@ -159,12 +156,13 @@ cherry
 
 ## 8. Check if Item Exists
 
-* To determine if a specified item is present in a list use the in keyword:
+* To determine if a specified item is present in a list use the `in` keyword:
 
 ```python
-* Check if "apple" is present in the list:
+# Check if "apple" is present in the list:
 
 thislist = ["apple", "banana", "cherry"]
+
 if "apple" in thislist:
   print("Yes, 'apple' is in the fruits list")
 
@@ -175,10 +173,10 @@ Yes, 'apple' is in the fruits list
 
 ## 9. List Length
 
-* To determine how many items a list has, use the len() function:
+* To determine how many items a list has, use the `len(` function:
 
 ```python
-* Print the number of items in the list:
+# Print the number of items in the list:
 
 thislist = ["apple", "banana", "cherry"]
 
@@ -206,9 +204,10 @@ print(thislist)
 * To add an item at the specified index, use the `insert()` method:
 
 ```python
-* Insert an item as the second position:
+# Insert an item as the second position:
 
 thislist = ["apple", "banana", "cherry"]
+
 thislist.insert(1, "orange")
 
 Output:
@@ -222,9 +221,10 @@ print(thislist)
 * There are several methods to remove items from a list:
 
 ```python
-* The `remove()` method removes the specified item:
+# The `remove()` method removes the specified item:
 
 thislist = ["apple", "banana", "cherry"]
+
 thislist.remove("banana")
 
 Output:
@@ -237,6 +237,7 @@ print(thislist)
 
 ```python
 thislist = ["apple", "banana", "cherry"]
+
 thislist.pop(0)
 
 Output:
@@ -247,6 +248,7 @@ print(thislist)
 or
 
 thislist = ["apple", "banana", "cherry"]
+
 thislist.pop()
 
 Output:
@@ -259,6 +261,7 @@ print(thislist)
 
 ```python
 thislist = ["apple", "banana", "cherry"]
+
 del thislist[0]
 
 Output:
@@ -267,10 +270,11 @@ print(thislist)
 ['banana', 'cherry']
 ```
 
-* The del keyword can also delete the list completely:
+* The `del` keyword can also delete the list completely:
 
 ```python
 thislist = ["apple", "banana", "cherry"]
+
 del thislist
 
 Output:
@@ -288,6 +292,7 @@ NameError: name 'thislist' is not defined
 
 ```python
 thislist = ["apple", "banana", "cherry"]
+
 thislist.clear()
 
 Output:
@@ -304,6 +309,7 @@ print(thislist)
 * Make a copy of a list with the `copy()` method:
 
 thislist = ["apple", "banana", "cherry"]
+
 mylist = thislist.copy()
 
 Output:
@@ -318,6 +324,7 @@ print(mylist)
 * Make a copy of a list with the `list()` method:
 
 thislist = ["apple", "banana", "cherry"]
+
 mylist = list(thislist)
 
 Output:
@@ -374,7 +381,7 @@ print(list1)
 ['a', 'b', 'c', 1, 2, 3]
 ```
 
-* Or you can use the extend() method, which purpose is to add elements from one list 
+* Or you can use the `extend()` method, which purpose is to add elements from one list 
 to another list:
 
 ```python
@@ -426,5 +433,6 @@ print(thislist)
 10. reverse()		Reverses the order of the list
 11. sort()		Sorts the list
 </pre>
+
 
 > Please inbox **[me](https://www.facebook.com/shoriot)**, if you've any questions.
