@@ -188,6 +188,9 @@ print(len(thislist))
 
 ## 10. Add Items
 
+1. append()
+2. insert()
+
 * To add an item to the end of the list, use the `append()` method:
 
 ```python
@@ -217,6 +220,12 @@ print(thislist)
 ```
 
 ## 11. Remove Item
+
+1. remove()
+2. pop()
+3. del
+4. clear()
+
 
 * There are several methods to remove items from a list:
 
